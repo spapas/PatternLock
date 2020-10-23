@@ -146,12 +146,16 @@ public class SetPatternActivity extends BasePatternActivity
         switch (mStage) {
             case Draw:
             case DrawTooShort:
+                updateStage(Stage.DrawTooShort);
+                /*
                 if (newPattern.size() < mMinPatternSize) {
                     updateStage(Stage.DrawTooShort);
                 } else {
                     mPattern = new ArrayList<>(newPattern);
                     updateStage(Stage.DrawValid);
                 }
+
+                */
                 break;
             case Confirm:
             case ConfirmWrong:

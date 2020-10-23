@@ -72,7 +72,7 @@ import java.util.List;
 @SuppressWarnings("unused")
 public class PatternView extends View {
 
-    public static final int PATTERN_SIZE_DEFAULT = 3;
+    public static final int PATTERN_SIZE_DEFAULT = 4;
 
     // Aspect to use when rendering this view
     private static final int ASPECT_SQUARE = 0; // View will be the minimum of width/height
